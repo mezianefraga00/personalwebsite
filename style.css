@@ -1,0 +1,201 @@
+
+ul {
+    position: sticky;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    font-size: x-large;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+    /* end of navbar ********************************/
+
+    .div1{
+        float: left;
+    width: 30%;
+    background-color: rgba(245, 245, 245, 0.096);
+    padding: 80px;
+    
+    height: 320px;
+    border-radius: 15px;
+    margin-top: 20px;
+
+    }
+    .div2{
+        float: right;
+        width: 30%;
+        background-color: rgba(245, 245, 245, 0.096);
+        padding: 80px;
+        margin-right: 10%;
+        height: 320px;
+        
+        border-radius: 15px;
+        margin-top: 1.8%;
+       
+            
+
+    }
+    .div2 p  {
+        margin-top: 0px;
+        
+    }
+   
+
+  /* About me ------------------------------------------------ */
+
+
+
+  .log1{
+    float: left;
+    width: 30%;
+    background-color: whitesmoke;
+    padding: 10px;
+    
+    height: 200px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.log2{
+    float: right;
+    width: 30%;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-right: 15%;
+    height: 200px;
+    border-radius: 15px;
+}
+.log3{
+    float: left;
+    width: 30%;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-top: 1%;
+    height: 200px;
+    border-radius: 15px;
+    margin-left: 20px;
+
+}
+.log4{
+    float: right;
+    width: 30%;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-right: 15%;
+    height: 200px;
+    border-radius: 15px;
+    margin-bottom: 10%;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #000000;
+    border: none;
+    border-radius: 15px;
+    
+  }
+  
+  .button:hover {background-color: #252525}
+  
+  .button:active {
+    background-color: #1a1a1a;
+   
+    transform: translateY(4px);
+  }
+  .p2{border-top: solid;
+      margin-top: 50px;
+ }
+ .p2 img{width: 50px;
+    padding: 10px;}
+
+    
+    /*---------------------helpful ---------------------*/
+    .expl1, .expl2, .expl3, .expl4{
+        float: right;
+        width: 60%;
+        background-color: whitesmoke;
+        padding: 10px;
+        margin-right: 2%;
+        height: 100px;
+        border-radius: 15px;
+    }
+    /*************************** contact *************/
+    .form input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      .form input[type=email], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      .form input[type=submit] {
+        width: 100%;
+        background-color:black;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      .form input[type=submit]:hover {
+        background-color: black;
+      }
+      
+      .form {
+        border-radius: 5px;
+        background-color:rgb(226, 222, 222);
+        padding: 20px;
+        width: 350px;
+        margin: auto;
+        margin-top: 20px;
+      }
+      .textarea {
+         width: 100%;
+         height: 150px;
+         padding: 12px 20px;
+         box-sizing: border-box;
+         border: 2px solid #ccc;
+         border-radius: 4px;
+         background-color: #f8f8f8;
+         font-size: 16px;
+         resize: none;
+}
